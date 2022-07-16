@@ -1,0 +1,12 @@
+h4 {
+    display: inline;
+}
+
+h5 {
+    display: inline;
+    float: right;
+}
+
+i {
+    cursor: pointer;
+}

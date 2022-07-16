@@ -1,0 +1,18 @@
+.vals{
+    display: flex;
+    font-size: 2em;
+    width: 700px;
+    align-content: center;
+}
+
+.dataResult {
+    margin-top: 5px; 
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+.searchPage{
+    margin-left: 25%;
+    margin-top: 10%;
+ 
+}

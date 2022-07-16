@@ -1,0 +1,145 @@
+
+body {
+	color: #999;
+	font-family: 'Roboto';
+  font-weight: 400;
+	background-color: rgba(var(--b3f,250,250,250),1);
+
+}
+
+#main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+	color: #999;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+
+.form-control, .form-control:focus, .input-group-addon {
+	border-color: #e1e1e1;
+	border-radius: 0;
+}
+.signup-form {
+	width: 390px;
+	padding: 50px 0;
+
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	text-align: center;
+}
+.signup-form .lead {
+	font-size: 14px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {		
+	border-radius: 1px;
+	margin-bottom: 15px;
+	background: #fff;
+	border: 1px solid #f3f3f3;
+  -moz-box-shadow: 0 0 3px #40dec7;
+  -webkit-box-shadow: 0 0 3px #40dec7;
+  box-shadow: 0 0 3px #40dec7;
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 13px;
+}
+.signup-form .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+	border-width: 0 0 1px 0;
+}	
+.signup-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+	background: none;
+	border-bottom: 1px solid #e1e1e1;
+	padding-left: 5px;
+}
+.signup-form .btn, .signup-form .btn:active {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #d36305 !important;
+	border-radius: 3px;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #ad5c19 !important;
+}
+.signup-form a {
+	color: #f8bd70 !important;
+	text-decoration: none !important;
+}	
+.signup-form a:hover {
+	text-decoration: underline;
+}
+.signup-form .fa {
+	font-size: 21px;
+	position: relative;
+	top: 8px;
+}
+.signup-form .fa-paper-plane {
+	font-size: 17px;
+}
+.signup-form .fa-check {
+	color: #fff;
+	left: 9px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+
+#logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+  margin-bottom: 0;
+
+  width: 100%;
+  background-color: #d36305;
+  text-align: center;
+  color:white
+}
+
+.footer p{
+  padding-top: 16px;
+}
+
+#signin{
+	color: white;
+}
+
+a:hover{
+	color: gray !important; 
+  text-decoration: inherit !important;
+}
+
+.error{
+	color: #f8bd70;
+	font-weight: 500;
+}
+
+#logo{
+	width: 80px;
+	height:auto
+}
+
